@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6151C5F19A415BA00D58E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6151C4A19A415BA00D58E0C /* AppDelegate.m */; };
+		E6151C6019A415BA00D58E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6151C4B19A415BA00D58E0C /* Main.storyboard */; };
+		E6151C6119A415BA00D58E0C /* CreateAccount-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6151C4D19A415BA00D58E0C /* CreateAccount-Info.plist */; };
+		E6151C6219A415BA00D58E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6151C4F19A415BA00D58E0C /* InfoPlist.strings */; };
+		E6151C6319A415BA00D58E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6151C5119A415BA00D58E0C /* Images.xcassets */; };
+		E6151C6419A415BA00D58E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6151C5219A415BA00D58E0C /* main.m */; };
+		E6151C6519A415BA00D58E0C /* signInPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6151C5419A415BA00D58E0C /* signInPage.m */; };
+		E6151C6619A415BA00D58E0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6151C5619A415BA00D58E0C /* ViewController.m */; };
+		E6151C6719A415BA00D58E0C /* CreateAccountTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6151C5B19A415BA00D58E0C /* CreateAccountTests-Info.plist */; };
+		E6151C6819A415BA00D58E0C /* CreateAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6151C5C19A415BA00D58E0C /* CreateAccountTests.m */; };
+		E6151C6919A415BA00D58E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6151C5D19A415BA00D58E0C /* InfoPlist.strings */; };
 		F60D4D8E19842FB300873B83 /* IngredientsSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F60D4D8D19842FB300873B83 /* IngredientsSelectionCell.m */; };
 		F61684A1198ADDC7002A23C6 /* SelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61684A0198ADDC7002A23C6 /* SelectionTableViewController.m */; };
 		F61870601993FF4800F9D573 /* TestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F618705F1993FF4800F9D573 /* TestGroupViewController.m */; };
@@ -45,6 +56,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E6151C6C19A415BA00D58E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6151C5719A415BA00D58E0C /* CreateAccount.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E61B0134199AAF7F00BBE276;
+			remoteInfo = CreateAccount;
+		};
+		E6151C6E19A415BA00D58E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6151C5719A415BA00D58E0C /* CreateAccount.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E61B0155199AAF8000BBE276;
+			remoteInfo = CreateAccountTests;
+		};
 		F6B00076192A7EC3001257C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F6B00048192A7EC2001257C9 /* Project object */;
@@ -55,6 +80,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6151C4919A415BA00D58E0C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6151C4A19A415BA00D58E0C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6151C4C19A415BA00D58E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6151C4D19A415BA00D58E0C /* CreateAccount-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CreateAccount-Info.plist"; sourceTree = "<group>"; };
+		E6151C4E19A415BA00D58E0C /* CreateAccount-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CreateAccount-Prefix.pch"; sourceTree = "<group>"; };
+		E6151C5019A415BA00D58E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6151C5119A415BA00D58E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6151C5219A415BA00D58E0C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6151C5319A415BA00D58E0C /* signInPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signInPage.h; sourceTree = "<group>"; };
+		E6151C5419A415BA00D58E0C /* signInPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signInPage.m; sourceTree = "<group>"; };
+		E6151C5519A415BA00D58E0C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6151C5619A415BA00D58E0C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6151C5719A415BA00D58E0C /* CreateAccount.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CreateAccount.xcodeproj; sourceTree = "<group>"; };
+		E6151C5B19A415BA00D58E0C /* CreateAccountTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CreateAccountTests-Info.plist"; sourceTree = "<group>"; };
+		E6151C5C19A415BA00D58E0C /* CreateAccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountTests.m; sourceTree = "<group>"; };
+		E6151C5E19A415BA00D58E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F60D4D8C19842FB300873B83 /* IngredientsSelectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsSelectionCell.h; sourceTree = "<group>"; };
 		F60D4D8D19842FB300873B83 /* IngredientsSelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsSelectionCell.m; sourceTree = "<group>"; };
 		F616849F198ADDC7002A23C6 /* SelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionTableViewController.h; sourceTree = "<group>"; };
@@ -140,6 +181,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6151C4719A415BA00D58E0C /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				E6151C4819A415BA00D58E0C /* CreateAccount */,
+				E6151C5719A415BA00D58E0C /* CreateAccount.xcodeproj */,
+				E6151C5A19A415BA00D58E0C /* CreateAccountTests */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		E6151C4819A415BA00D58E0C /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				E6151C4919A415BA00D58E0C /* AppDelegate.h */,
+				E6151C4A19A415BA00D58E0C /* AppDelegate.m */,
+				E6151C4B19A415BA00D58E0C /* Main.storyboard */,
+				E6151C4D19A415BA00D58E0C /* CreateAccount-Info.plist */,
+				E6151C4E19A415BA00D58E0C /* CreateAccount-Prefix.pch */,
+				E6151C4F19A415BA00D58E0C /* InfoPlist.strings */,
+				E6151C5119A415BA00D58E0C /* Images.xcassets */,
+				E6151C5219A415BA00D58E0C /* main.m */,
+				E6151C5319A415BA00D58E0C /* signInPage.h */,
+				E6151C5419A415BA00D58E0C /* signInPage.m */,
+				E6151C5519A415BA00D58E0C /* ViewController.h */,
+				E6151C5619A415BA00D58E0C /* ViewController.m */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		E6151C5819A415BA00D58E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6151C6D19A415BA00D58E0C /* CreateAccount.app */,
+				E6151C6F19A415BA00D58E0C /* CreateAccountTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6151C5A19A415BA00D58E0C /* CreateAccountTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6151C5B19A415BA00D58E0C /* CreateAccountTests-Info.plist */,
+				E6151C5C19A415BA00D58E0C /* CreateAccountTests.m */,
+				E6151C5D19A415BA00D58E0C /* InfoPlist.strings */,
+			);
+			path = CreateAccountTests;
+			sourceTree = "<group>";
+		};
 		F6B00047192A7EC2001257C9 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				F6B00065192A7EC2001257C9 /* Main.storyboard */,
+				E6151C4719A415BA00D58E0C /* CreateAccount */,
 				F6466A1C198C138900FF25AD /* SelectionCell.h */,
 				F6466A1D198C138900FF25AD /* SelectionCell.m */,
 				F65F469A194A47C600D22812 /* IndividualItemCell.h */,
@@ -319,6 +409,12 @@
 			mainGroup = F6B00047192A7EC2001257C9;
 			productRefGroup = F6B00051192A7EC2001257C9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E6151C5819A415BA00D58E0C /* Products */;
+					ProjectRef = E6151C5719A415BA00D58E0C /* CreateAccount.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F6B0004F192A7EC2001257C9 /* CPDeliVersion1 */,
@@ -327,15 +423,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E6151C6D19A415BA00D58E0C /* CreateAccount.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CreateAccount.app;
+			remoteRef = E6151C6C19A415BA00D58E0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6151C6F19A415BA00D58E0C /* CreateAccountTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CreateAccountTests.xctest;
+			remoteRef = E6151C6E19A415BA00D58E0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F6B0004E192A7EC2001257C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6151C6319A415BA00D58E0C /* Images.xcassets in Resources */,
 				F6B0006C192A7EC2001257C9 /* Images.xcassets in Resources */,
+				E6151C6719A415BA00D58E0C /* CreateAccountTests-Info.plist in Resources */,
+				E6151C6219A415BA00D58E0C /* InfoPlist.strings in Resources */,
 				F661CA89192D9E510061DCF7 /* aboutUs.png in Resources */,
+				E6151C6119A415BA00D58E0C /* CreateAccount-Info.plist in Resources */,
 				F674482F1975B0770005DE31 /* shoppingCartIcon.png in Resources */,
+				E6151C6019A415BA00D58E0C /* Main.storyboard in Resources */,
 				F6B0005E192A7EC2001257C9 /* InfoPlist.strings in Resources */,
+				E6151C6919A415BA00D58E0C /* InfoPlist.strings in Resources */,
 				F6B00067192A7EC2001257C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,12 +474,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6151C5F19A415BA00D58E0C /* AppDelegate.m in Sources */,
 				F6C678C1197DAC00003612DC /* IngredientsGroupItemItem.m in Sources */,
 				F6466A21198C189800FF25AD /* Choices.m in Sources */,
 				F65F469C194A47C600D22812 /* IndividualItemCell.m in Sources */,
+				E6151C6819A415BA00D58E0C /* CreateAccountTests.m in Sources */,
 				F65F4696194A2B2900D22812 /* IndividualItemDetailViewController.m in Sources */,
 				F65F4693194A2B0500D22812 /* IndividualItemViewController.m in Sources */,
+				E6151C6619A415BA00D58E0C /* ViewController.m in Sources */,
 				F6C678BE197DAB81003612DC /* IngredientsGroupItem.m in Sources */,
+				E6151C6519A415BA00D58E0C /* signInPage.m in Sources */,
 				F61870601993FF4800F9D573 /* TestGroupViewController.m in Sources */,
 				F61684A1198ADDC7002A23C6 /* SelectionTableViewController.m in Sources */,
 				F61E004C197EFEE20062EC5B /* IngredientsSelectionTableViewController.m in Sources */,
@@ -376,6 +499,7 @@
 				F6C678B5197B1572003612DC /* IngredientsTable.m in Sources */,
 				F6A5EB70193CFABD00F9CAAD /* Ingredients.m in Sources */,
 				F661CA87192D9C2D0061DCF7 /* AboutUs.m in Sources */,
+				E6151C6419A415BA00D58E0C /* main.m in Sources */,
 				F674482A19748BC60005DE31 /* ShoppingCart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +523,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E6151C4B19A415BA00D58E0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6151C4C19A415BA00D58E0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6151C4F19A415BA00D58E0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6151C5019A415BA00D58E0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6151C5D19A415BA00D58E0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6151C5E19A415BA00D58E0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		F6B0005C192A7EC2001257C9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
